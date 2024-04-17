@@ -24,6 +24,10 @@ parameters:
   subnet:
     type: string
     description: Subnet used by the server
+  vol_size:
+    type: number
+    description: The size of the Cinder volume
+    default: 16
 
 resources:
   server:
